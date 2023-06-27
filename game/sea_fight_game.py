@@ -88,5 +88,6 @@ class Game:
             print("OH nooo way!! HOW DO YOU LOOSSEE???")
 
 
-game = Game()
-game.play()
+if __name__ == "__main__":
+    game = Game()
+    game.play()
